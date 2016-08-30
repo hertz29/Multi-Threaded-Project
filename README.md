@@ -1,6 +1,6 @@
 The Multi Threaded Project is A simulation of Real Estate Investment Trust.
 
-The project simulate the assets renting process. A asset renting process life circle is:
+The project simulate the assets renting process. A asset renting process life cycle is:
 
 1. One of the office clarks (runnable object) pull a Customer Group Details
 2. The clark find an asset which match the  group requests.
