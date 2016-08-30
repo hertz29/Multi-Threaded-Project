@@ -1,0 +1,681 @@
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: Management -- Launching Simulation! launching all Runnables.
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: Management -- --------------------Shift 1 Has Begun --------------------
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: Management -- New Clerk Shift Has Begun
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is starting a new shift
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is starting a new shift
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is starting a new shift
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is starting a new shift
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is starting a new shift
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is handling request 12
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is handling request 10
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 1 has been booked!
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is handling request 3
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is handling request 1
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott found the suitable asset for request: 12 the suitable asset is: Asset 1 the asset type is: Apartment
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 4 has been booked!
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is handling request 14
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is going to the asset, It will take 48 seconds
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die found the suitable asset for request: 10 the suitable asset is: Asset 4 the asset type is: House
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I found the suitable asset for request: 3 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is going to the asset, It will take 41 seconds
+
+Dec 30, 2014 8:08:25 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:08:56 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 3 has been fulfilled
+Dec 30, 2014 8:08:56 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Leonidas I has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:08:56 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:08:58 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 0.5][damage = 0.5][damage = 3.0][damage = 0.5][damage = 0.5]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:08:58 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:08:58 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:09:06 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 10 has been fulfilled
+Dec 30, 2014 8:09:06 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Paula Die has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:09:06 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 3 has entered the asset
+
+Dec 30, 2014 8:09:08 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 3][damage = 7.588183195123827][damage = 6.946613612432872][damage = 8.649635050578954][damage = 8.383604215506466]=====> total damage is: [31.56803607364212]
+
+Dec 30, 2014 8:09:08 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 3[assetName= Asset 4][assetType= House][assetsize= 4][totalDamage= 31.56803607364212] vacating asset
+
+Dec 30, 2014 8:09:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 4 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:09:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 4 has been booked!
+
+Dec 30, 2014 8:09:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton found the suitable asset for request: 14 the suitable asset is: Asset 4 the asset type is: House
+
+Dec 30, 2014 8:09:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is going to the asset, It will take 41 seconds
+
+Dec 30, 2014 8:09:13 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 12 has been fulfilled
+Dec 30, 2014 8:09:13 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Wolfgang Eisenkott has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:09:13 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 4 has entered the asset
+
+Dec 30, 2014 8:09:17 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 4][damage = 10.0][damage = 19.825247101109426]=====> total damage is: [29.825247101109426]
+
+Dec 30, 2014 8:09:17 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 4[assetName= Asset 1][assetType= Apartment][assetsize= 2][totalDamage= 29.825247101109426] vacating asset
+
+Dec 30, 2014 8:09:17 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 1 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:09:17 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 1 has been booked!
+
+Dec 30, 2014 8:09:17 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush found the suitable asset for request: 1 the suitable asset is: Asset 1 the asset type is: Apartment
+
+Dec 30, 2014 8:09:17 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is going to the asset, It will take 48 seconds
+
+Dec 30, 2014 8:09:49 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 14 has been fulfilled
+Dec 30, 2014 8:09:49 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Paula Bitton has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:09:49 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 5 has entered the asset
+
+Dec 30, 2014 8:09:50 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 5][damage = 3.466077756421473][damage = 0.5][damage = 3.325586766245256][damage = 15.0][damage = 0.5]=====> total damage is: [22.79166452266673]
+
+Dec 30, 2014 8:09:50 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 5[assetName= Asset 4][assetType= House][assetsize= 5][totalDamage= 22.79166452266673] vacating asset
+
+Dec 30, 2014 8:09:50 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 4 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:05 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 1 has been fulfilled
+Dec 30, 2014 8:10:05 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Ken Harush has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:10:05 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 1 has entered the asset
+
+Dec 30, 2014 8:10:05 PM utils.ReitLogger logThis
+INFO: Management -- All clerks are done!! waiting for customer groups to vacate the assets!
+
+Dec 30, 2014 8:10:10 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 1][damage = 5.0][damage = 14.439680147878658][damage = 5.0]=====> total damage is: [24.439680147878658]
+
+Dec 30, 2014 8:10:10 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 1[assetName= Asset 1][assetType= Apartment][assetsize= 3][totalDamage= 24.439680147878658] vacating asset
+
+Dec 30, 2014 8:10:10 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 1 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Management -- ALL ASSETS HAVE BEEN VACATED!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 4 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 1 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 4 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 1 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Assets -- Damage Assets is[Asset 1][Asset 4]
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Management -- New Maintenance Workers shift has begun with 2 to handle!
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- Maintenance person is going to repair: Asset 1
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- COST IN milliseconds =1273
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- It's going to take 1273time to fix the asset named Asset 1
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- Maintenance person is going to repair: Asset 4
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- COST IN milliseconds =744
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- It's going to take 744time to fix the asset named Asset 4
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named Asset 4is fixed
+
+Dec 30, 2014 8:10:11 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- -=>REPAIR REQUEST IS DONE<=-
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named Asset 1is fixed
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- -=>REPAIR REQUEST IS DONE<=-
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Management -- The Maintenance Workers finished fixing the damaged assets
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Management -- ------------------ Day 1 Has ended with 1 requests left to handle!
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Management -- --------------------Shift 2 Has Begun --------------------
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Management -- New Clerk Shift Has Begun
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is starting a new shift
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is starting a new shift
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is starting a new shift
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is starting a new shift
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is handling request 13
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is handling request 11
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is handling request 4
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is starting a new shift
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 1 has been booked!
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is handling request 15
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 2 has been booked!
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott found the suitable asset for request: 13 the suitable asset is: Asset 1 the asset type is: Apartment
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is handling request 2
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is going to the asset, It will take 48 seconds
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush found the suitable asset for request: 4 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die found the suitable asset for request: 11 the suitable asset is: Asset 2 the asset type is: Loft
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 3 has been booked!
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is going to the asset, It will take 55 seconds
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I found the suitable asset for request: 2 the suitable asset is: Asset 3 the asset type is: Hut
+
+Dec 30, 2014 8:10:12 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is going to the asset, It will take 43 seconds
+
+Dec 30, 2014 8:10:43 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 4 has been fulfilled
+Dec 30, 2014 8:10:43 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Ken Harush has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:10:43 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:10:45 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 3.0][damage = 0.5][damage = 0.5][damage = 0.5][damage = 0.5]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:10:45 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:10:45 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:55 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 2 has been fulfilled
+Dec 30, 2014 8:10:55 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Leonidas I has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:10:55 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 1 has entered the asset
+
+Dec 30, 2014 8:10:58 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 1][damage = 5.0][damage = 17.572786427015625][damage = 5.0]=====> total damage is: [27.572786427015625]
+
+Dec 30, 2014 8:10:58 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 1[assetName= Asset 3][assetType= Hut][assetsize= 3][totalDamage= 27.572786427015625] vacating asset
+
+Dec 30, 2014 8:10:58 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 3 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:10:58 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- CustomerGroupManager: Group 1 IS DONE! now I can die peacefully.
+
+Dec 30, 2014 8:11:00 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 13 has been fulfilled
+Dec 30, 2014 8:11:00 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Wolfgang Eisenkott has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:11:00 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 4 has entered the asset
+
+Dec 30, 2014 8:11:02 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 4][damage = 10.0][damage = 16.276222916653758]=====> total damage is: [26.276222916653758]
+
+Dec 30, 2014 8:11:02 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 4[assetName= Asset 1][assetType= Apartment][assetsize= 2][totalDamage= 26.276222916653758] vacating asset
+
+Dec 30, 2014 8:11:02 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 1 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:11:02 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- CustomerGroupManager: Group 4 IS DONE! now I can die peacefully.
+
+Dec 30, 2014 8:11:07 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 11 has been fulfilled
+Dec 30, 2014 8:11:07 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Paula Die has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:11:07 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 3 has entered the asset
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 3][damage = 7.443453347711128][damage = 5.901049998700584][damage = 6.005180967572587][damage = 6.044011226359727]=====> total damage is: [25.393695540344027]
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 3[assetName= Asset 2][assetType= Loft][assetsize= 4][totalDamage= 25.393695540344027] vacating asset
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 2 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 2 has been booked!
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- CustomerGroupManager: Group 3 IS DONE! now I can die peacefully.
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton found the suitable asset for request: 15 the suitable asset is: Asset 2 the asset type is: Loft
+
+Dec 30, 2014 8:11:09 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is going to the asset, It will take 55 seconds
+
+Dec 30, 2014 8:12:04 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 15 has been fulfilled
+Dec 30, 2014 8:12:04 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Paula Bitton has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:12:04 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 5 has entered the asset
+
+Dec 30, 2014 8:12:04 PM utils.ReitLogger logThis
+INFO: Management -- All clerks are done!! waiting for customer groups to vacate the assets!
+
+Dec 30, 2014 8:12:07 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 5][damage = 5.919152572111898][damage = 0.5][damage = 15.0][damage = 5.542039093046027][damage = 0.5]=====> total damage is: [27.461191665157926]
+
+Dec 30, 2014 8:12:07 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 5[assetName= Asset 2][assetType= Loft][assetsize= 5][totalDamage= 27.461191665157926] vacating asset
+
+Dec 30, 2014 8:12:07 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 2 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:07 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- CustomerGroupManager: Group 5 IS DONE! now I can die peacefully.
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Management -- ALL ASSETS HAVE BEEN VACATED!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 3 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 1 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 2 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 2 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Assets -- Damage Assets is[Asset 2]
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Management -- New Maintenance Workers shift has begun with 1 to handle!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- Maintenance person is going to repair: Asset 2
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- COST IN milliseconds =316
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- It's going to take 316time to fix the asset named Asset 2
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named Asset 2is fixed
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- -=>REPAIR REQUEST IS DONE<=-
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Management -- The Maintenance Workers finished fixing the damaged assets
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Management -- ------------------ Day 2 Has ended with 2 requests left to handle!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Management -- --------------------Shift 3 Has Begun --------------------
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Management -- New Clerk Shift Has Begun
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is starting a new shift
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is starting a new shift
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is handling request 5
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is starting a new shift
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is starting a new shift
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is starting a new shift
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush found the suitable asset for request: 5 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:12:08 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Ken Harush is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:12:39 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 5 has been fulfilled
+Dec 30, 2014 8:12:39 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Ken Harush has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:12:39 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 0.5][damage = 0.5][damage = 0.5][damage = 3.0][damage = 0.5]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is handling request 6
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I found the suitable asset for request: 6 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:12:40 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Leonidas I is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:13:11 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 6 has been fulfilled
+Dec 30, 2014 8:13:11 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Leonidas I has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:13:11 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 0.5][damage = 0.5][damage = 0.5][damage = 3.0][damage = 0.5]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is handling request 7
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die found the suitable asset for request: 7 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:13:14 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Die is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:13:45 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 7 has been fulfilled
+Dec 30, 2014 8:13:45 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Paula Die has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:13:45 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 0.5][damage = 0.5][damage = 0.5][damage = 0.5][damage = 3.0]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is handling request 8
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott found the suitable asset for request: 8 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:13:47 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Wolfgang Eisenkott is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:14:18 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 8 has been fulfilled
+Dec 30, 2014 8:14:18 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Wolfgang Eisenkott has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:14:18 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 3.0][damage = 0.5][damage = 0.5][damage = 0.5][damage = 0.5]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is handling request 9
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named: Asset 5 has been booked!
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton found the suitable asset for request: 9 the suitable asset is: Asset 5 the asset type is: Cottage
+
+Dec 30, 2014 8:14:20 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- Paula Bitton is going to the asset, It will take 31 seconds
+
+Dec 30, 2014 8:14:51 PM REITSimulationObjects.RentalRequest updateAsset
+INFO: Request 9 has been fulfilled
+Dec 30, 2014 8:14:51 PM utils.ReitLogger logThis
+INFO: RunnableClerk -- The clerk Paula Bitton has finished his/hers shift. Waiting for a new shift.
+
+Dec 30, 2014 8:14:51 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2 has entered the asset
+
+Dec 30, 2014 8:14:51 PM utils.ReitLogger logThis
+INFO: Management -- All clerks are done!! waiting for customer groups to vacate the assets!
+
+Dec 30, 2014 8:14:53 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- =====>[Group 2][damage = 0.5][damage = 3.0][damage = 0.5][damage = 0.5][damage = 0.5]=====> total damage is: [5.0]
+
+Dec 30, 2014 8:14:53 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- Group 2[assetName= Asset 5][assetType= Cottage][assetsize= 5][totalDamage= 5.0] vacating asset
+
+Dec 30, 2014 8:14:53 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:53 PM utils.ReitLogger logThis
+INFO: RunnableCustomerGroupManager -- CustomerGroupManager: Group 2 IS DONE! now I can die peacefully.
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Management -- ALL ASSETS HAVE BEEN VACATED!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Asset -- Asset 5 has been vacated, Wake up all clerks!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Assets -- Damage Assets is[Asset 5]
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Management -- New Maintenance Workers shift has begun with 1 to handle!
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- Maintenance person is going to repair: Asset 5
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: Asset -- COST IN milliseconds =545
+
+Dec 30, 2014 8:14:54 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- It's going to take 545time to fix the asset named Asset 5
+
+Dec 30, 2014 8:14:55 PM utils.ReitLogger logThis
+INFO: Asset -- Asset named Asset 5is fixed
+
+Dec 30, 2014 8:14:55 PM utils.ReitLogger logThis
+INFO: RunnableMaintenanceRequest -- -=>REPAIR REQUEST IS DONE<=-
+
+Dec 30, 2014 8:14:55 PM utils.ReitLogger logThis
+INFO: Management -- The Maintenance Workers finished fixing the damaged assets
+
+Dec 30, 2014 8:14:55 PM utils.ReitLogger logThis
+INFO: Management -- ------------------ Day 3 Has ended with 3 requests left to handle!
+
+Dec 30, 2014 8:14:55 PM utils.ReitLogger logThis
+INFO: Management -- Prepearing Simulation statistics to print!
+
+Dec 30, 2014 8:14:55 PM utils.ReitLogger logThis
+INFO: Management -- Simulation has ended. Goodbye.
+

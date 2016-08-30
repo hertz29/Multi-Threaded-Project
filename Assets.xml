@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+<Assets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Assets.xsd">
+-->
+<Assets>
+	<Asset>
+		<Name>Asset 1</Name>
+		<Type>Apartment</Type>
+		<Size>3</Size>
+		<Location x = "20" y = "20" />
+		<CostPerNight>100</CostPerNight>
+		<AssetContents>
+			<AssetContent>
+				<Name>TV</Name>
+				<RepairMultiplier>5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Bed</Name>
+				<RepairMultiplier>8</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Fridge</Name>
+				<RepairMultiplier>3</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Desk</Name>
+				<RepairMultiplier>4</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Stove</Name>
+				<RepairMultiplier>3.5</RepairMultiplier>
+			</AssetContent>
+		</AssetContents>
+	</Asset>
+	<Asset>
+		<Name>Asset 2</Name>
+		<Type>Loft</Type>
+		<Size>5</Size>
+		<Location x = "20" y = "25" />
+		<CostPerNight>30</CostPerNight>
+		<AssetContents>
+			<AssetContent>
+				<Name>TV</Name>
+				<RepairMultiplier>2.5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Fridge</Name>
+				<RepairMultiplier>2</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Desk</Name>
+				<RepairMultiplier>1.5</RepairMultiplier>
+			</AssetContent>
+		</AssetContents>
+	</Asset>
+	<Asset>
+		<Name>Asset 3</Name>	
+		<Type>Hut</Type>
+		<Size>3</Size>
+		<Location x = "15" y = "21" />
+		<CostPerNight>25</CostPerNight>
+		<AssetContents>
+			<AssetContent>
+				<Name>TV</Name>
+				<RepairMultiplier>1</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Bed</Name>
+				<RepairMultiplier>2</RepairMultiplier>
+			</AssetContent>
+		</AssetContents>
+	</Asset>
+	<Asset>
+		<Name>Asset 4</Name>
+		<Type>House</Type>
+		<Size>5</Size>
+		<Location x = "20" y = "15" />
+		<CostPerNight>50</CostPerNight>
+		<AssetContents>
+			<AssetContent>
+				<Name>TV</Name>
+				<RepairMultiplier>5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Bed</Name>
+				<RepairMultiplier>1</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Fridge</Name>
+				<RepairMultiplier>1.5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Desk</Name>
+				<RepairMultiplier>2.5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Stove</Name>
+				<RepairMultiplier>3.75</RepairMultiplier>
+			</AssetContent>
+		</AssetContents>
+	</Asset>
+	<Asset>
+		<Name>Asset 5</Name>	
+		<Type>Cottage</Type>
+		<Size>5</Size>
+		<Location x = "12" y = "16"/>
+		<CostPerNight>120</CostPerNight>
+		<AssetContents>
+			<AssetContent>
+				<Name>TV</Name>
+				<RepairMultiplier>2.5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Bed</Name>
+				<RepairMultiplier>1.65</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Fridge</Name>
+				<RepairMultiplier>1.25</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Desk</Name>
+				<RepairMultiplier>5.5</RepairMultiplier>
+			</AssetContent>
+			<AssetContent>
+				<Name>Stove</Name>
+				<RepairMultiplier>4.75</RepairMultiplier>
+			</AssetContent>
+		</AssetContents>
+	</Asset>
+</Assets>

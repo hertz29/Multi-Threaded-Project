@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomersGroups 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CustomerGroups>
+		<CustomerGroupDetails>
+			<GroupManagerName>Group 1</GroupManagerName>
+			<Customers>
+				<Customer>
+					<Name>Customer 1</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>10</MinimumDamage>
+					<MaximumDamage>20</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 2</Name>
+					<Vandalism>Fixed</Vandalism>
+					<MinimumDamage>1</MinimumDamage>
+					<MaximumDamage>9</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 3</Name>
+					<Vandalism>Fixed</Vandalism>
+					<MinimumDamage>1</MinimumDamage>
+					<MaximumDamage>9</MaximumDamage>
+				</Customer>
+			</Customers>
+			<RentalRequests>
+				<Request id="1">
+					<Type>Apartment</Type>
+					<Size>3</Size>
+					<Duration>5</Duration>
+				</Request>
+				<Request id="2">
+					<Type>Hut</Type>
+					<Size>3</Size>
+					<Duration>3</Duration>
+				</Request>
+			</RentalRequests>
+		</CustomerGroupDetails>
+		<CustomerGroupDetails>
+			<GroupManagerName>Group 2</GroupManagerName>
+			<Customers>
+				<Customer>
+					<Name>Customer 1</Name>
+					<Vandalism>Fixed</Vandalism>
+					<MinimumDamage>1</MinimumDamage>
+					<MaximumDamage>5</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 2</Name>
+					<Vandalism>None</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>0</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 3</Name>
+					<Vandalism>None</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>0</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 4</Name>
+					<Vandalism>None</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>0</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 5</Name>
+					<Vandalism>None</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>0</MaximumDamage>
+				</Customer>
+			</Customers>
+			<RentalRequests>
+				<Request id="3">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>2</Duration>
+				</Request>
+				<Request id="4">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>2</Duration>
+				</Request>
+				<Request id="5">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>1</Duration>
+				</Request>
+				<Request id="6">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>3</Duration>
+				</Request>
+				<Request id="7">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>2</Duration>
+				</Request>
+				<Request id="8">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>2</Duration>
+				</Request>
+				<Request id="9">
+					<Type>Cottage</Type>
+					<Size>5</Size>
+					<Duration>2</Duration>
+				</Request>
+			</RentalRequests>
+		</CustomerGroupDetails>
+		<CustomerGroupDetails>
+			<GroupManagerName>Group 3</GroupManagerName>
+			<Customers>
+				<Customer>
+					<Name>Customer 1</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>5</MinimumDamage>
+					<MaximumDamage>10</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 2</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>5</MinimumDamage>
+					<MaximumDamage>10</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 3</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>5</MinimumDamage>
+					<MaximumDamage>10</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 4</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>5</MinimumDamage>
+					<MaximumDamage>10</MaximumDamage>
+				</Customer>
+			</Customers>
+			<RentalRequests>
+				<Request id="10">
+					<Type>House</Type>
+					<Size>4</Size>
+					<Duration>2</Duration>
+				</Request>
+				<Request id="11">
+					<Type>Loft</Type>
+					<Size>4</Size>
+					<Duration>2</Duration>
+				</Request>
+			</RentalRequests>
+		</CustomerGroupDetails>
+		<CustomerGroupDetails>
+			<GroupManagerName>Group 4</GroupManagerName>
+			<Customers>
+				<Customer>
+					<Name>Customer 1</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>15</MinimumDamage>
+					<MaximumDamage>25</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 2</Name>
+					<Vandalism>Fixed</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>20</MaximumDamage>
+				</Customer>
+			</Customers>
+			<RentalRequests>
+				<Request id="12">
+					<Type>Apartment</Type>
+					<Size>2</Size>
+					<Duration>4</Duration>
+				</Request>
+				<Request id="13">
+					<Type>Apartment</Type>
+					<Size>2</Size>
+					<Duration>2</Duration>
+				</Request>
+			</RentalRequests>
+		</CustomerGroupDetails>
+		<CustomerGroupDetails>
+			<GroupManagerName>Group 5</GroupManagerName>
+			<Customers>
+				<Customer>
+					<Name>Customer 1</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>2</MinimumDamage>
+					<MaximumDamage>7</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 2</Name>
+					<Vandalism>Arbitrary</Vandalism>
+					<MinimumDamage>2</MinimumDamage>
+					<MaximumDamage>7</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 3</Name>
+					<Vandalism>Fixed</Vandalism>
+					<MinimumDamage>10</MinimumDamage>
+					<MaximumDamage>20</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 4</Name>
+					<Vandalism>None</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>0</MaximumDamage>
+				</Customer>
+				<Customer>
+					<Name>Customer 5</Name>
+					<Vandalism>None</Vandalism>
+					<MinimumDamage>0</MinimumDamage>
+					<MaximumDamage>0</MaximumDamage>
+				</Customer>
+			</Customers>
+			<RentalRequests>
+				<Request id="14">
+					<Type>House</Type>
+					<Size>5</Size>
+					<Duration>1</Duration>
+				</Request>
+				<Request id="15">
+					<Type>Loft</Type>
+					<Size>5</Size>
+					<Duration>3</Duration>
+				</Request>
+			</RentalRequests>
+		</CustomerGroupDetails>
+	</CustomerGroups>
+</CustomersGroups>
